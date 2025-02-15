@@ -1,0 +1,29 @@
+.icons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-wrapper {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid orange;
+    border-radius: 2px;
+}
+
+.icon-wrapper:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: orange;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+}
+

@@ -1,0 +1,7 @@
+.features {
+    display: inline-flex;
+    gap: 16rem;
+    padding: 20px;
+    justify-content: center;
+}
+
