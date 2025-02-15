@@ -3,11 +3,12 @@ import Card from "./card";
 
 const GridView = () => {
     return (
-        <div style = {{display: 'grid', gap: '2rem', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', padding: '10px' }} className="grid-view-container">
+        <div style = {{display: 'grid', gap: '1.4rem', gridTemplateColumns: 'repeat(auto-fit, minmax(13rem, 1fr))', padding: '10px' }} className="grid-view-container">
             <Card 
             src = "/assets/agsm.webp"
             alt="pic-1"
-            caption = "test test test" />
+            textTop = "9"
+            textBottom = "AGSM" />
 
             <Card 
             src = "/assets/ainsworth.webp"
