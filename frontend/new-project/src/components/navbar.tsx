@@ -1,14 +1,24 @@
-
+import { useState } from 'react';
 import IconsSection from "./icons";
 import "../styles/Navbar.css";
-import logo from "../assets/freeRoomsLogo.png"
 
-const Navbar = () => {
+interface NavBarProps {
+    openDoorSrc: string;  // Path to open door image
+    closedDoorSrc: string; // Path to closed door image
+}
+
+const Navbar: React.FC<NavBarProps> = ({openDoorSrc, closedDoorSrc}) => {
+    const [isOpen, setIsOpen] = useState(true);
+
+    const toggleDoor = () => {
+        setIsOpen(!isOpen);
+    }
+
     return (
         <nav className="navbar">
-            <div className="logo">
+            <div className="logo" onClick={toggleDoor} style={{ cursor: "pointer" }}>
                 <img
-                    src={logo}
+                    src={isOpen ? openDoorSrc : closedDoorSrc}
                     className="logo-image"
                 />
             </div>
