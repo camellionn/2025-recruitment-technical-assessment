@@ -1,0 +1,7 @@
+1/ Navigate to: cd 2025-recruitment-technical-assessment\frontend\new-project
+2/ Dependencies needed to run this file: 
+- Vite + React + TypeScript: 
+npm install vite react react-dom
+npm install typescript @types/react @types/react-dom --save-dev
+- Lucide icons for React: 
+npm install lucide-react

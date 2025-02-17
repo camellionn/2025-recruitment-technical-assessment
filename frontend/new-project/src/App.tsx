@@ -7,9 +7,6 @@ function App() {
     return (
         <div>
             <DashBoard />
-            <h1 style={{ textAlign: 'center', marginTop: '20px'}}>
-                Hiiiiiiiii!
-            </h1>
         </div>
     )
 }

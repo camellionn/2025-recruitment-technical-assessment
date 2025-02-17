@@ -2,7 +2,7 @@ import { ListFilter } from 'lucide-react';
 
 const SortFilter = () => {
     return (
-        <div style={{color: 'orange', display: 'flex', borderRadius: '10px', border: '2px solid orange', width: '5rem', padding: '10px', gap: '2px'}} className='sort-container'>
+        <div style={{color: 'orange', display: 'flex', borderRadius: '10px', border: '2px solid orange', width: '5rem', padding:'0.5rem' , gap: '2px', marginRight: '1rem'}} className='sort-container'>
             <div className='filter'>
                 <ListFilter />
             </div>

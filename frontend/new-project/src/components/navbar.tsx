@@ -8,6 +8,7 @@ interface NavBarProps {
 }
 
 const Navbar: React.FC<NavBarProps> = ({openDoorSrc, closedDoorSrc}) => {
+    //Task 1: State Management for the Door logo
     const [isOpen, setIsOpen] = useState(true);
 
     const toggleDoor = () => {
@@ -20,12 +21,15 @@ const Navbar: React.FC<NavBarProps> = ({openDoorSrc, closedDoorSrc}) => {
                 <img
                     src={isOpen ? openDoorSrc : closedDoorSrc}
                     className="logo-image"
+                    alt = "freerooms-logo"
                 />
             </div>
             <div className='title'>
                 <h1>Freerooms</h1>
             </div>
-            <IconsSection />
+            <div className='icon-section'>
+                <IconsSection />
+            </div>
         </nav>
     );
 };

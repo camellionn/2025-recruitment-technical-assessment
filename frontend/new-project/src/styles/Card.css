@@ -67,6 +67,14 @@
     justify-content: left;
     border-radius: 5px;
     color: white;
+    font-size: 0.8rem;
+    padding-bottom: 0.7rem;
+    font-weight: bold;
+}
+
+.text-bottom p {
+    padding-top: 0.2rem;
+    text-align: center;
 }
 
 

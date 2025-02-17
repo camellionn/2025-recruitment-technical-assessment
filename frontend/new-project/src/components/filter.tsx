@@ -2,7 +2,7 @@ import { Filter } from 'lucide-react';
 
 const FilterSection = () => {
     return (
-        <div style={{color: 'orange', display: 'flex', borderRadius: '10px', border: '2px solid orange', width: '5rem', padding: '10px', gap: '2px'}} className='filter-container'>
+        <div style={{color: 'orange', display: 'flex', borderRadius: '10px', border: '2px solid orange', width: '5rem', padding: '0.5rem', gap: '2px', marginLeft: '1rem'}} className='filter-container'>
             <div className='filter'>
                 <Filter />
             </div>
